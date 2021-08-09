@@ -101,7 +101,7 @@ forward void AmongUs_OnSabotageFailure(int client, int sabotage);
  * Called whenever a player has started using the vents.
  *
  * @param client     Client index.
- * @param vent   	 Vent index.
+ * @param vent       Vent index.
  * @return           N/A
  */
 forward void AmongUs_OnVentingStart(int client, int vent);
@@ -110,7 +110,7 @@ forward void AmongUs_OnVentingStart(int client, int vent);
  * Called whenever a player has switched to a new vent.
  *
  * @param client     Client index.
- * @param vent   	 Vent index.
+ * @param vent       Vent index.
  * @return           N/A
  */
 forward void AmongUs_OnVentingSwitch(int client, int vent);
@@ -119,7 +119,7 @@ forward void AmongUs_OnVentingSwitch(int client, int vent);
  * Called whenever a player has finished using the vents.
  *
  * @param client     Client index.
- * @param vent   	 Vent index.
+ * @param vent       Vent index.
  * @return           N/A
  */
 forward void AmongUs_OnVentingEnd(int client, int vent);
